@@ -1,0 +1,47 @@
+nav {
+    background-color: red;
+}
+
+.active{
+    color: blue;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+li {
+    list-style: none;
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: 600;
+
+    :hover {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 450px) and (min-width: 300px) {
+    /* Your CSS styles here */
+     li{
+        font-size: 20px;
+     }
+     ul {
+        padding: 0 15px;
+     }
+}
